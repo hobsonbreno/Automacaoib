@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "lib": ["ES2022", "dom"],
+      "types": ["cypress", "node"],
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+    },
+    "include": ["**/*.ts", "cypress/e2e/steps/login.step.ts"],
+    "types": [
+      "@types/prettier"
+    ]
+  }
